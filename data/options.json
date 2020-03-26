@@ -1,0 +1,7 @@
+    {
+        "hvac_host": "192.168.107.49",
+        "mqtt": {
+            "broker_url": "mqtt://192.168.111.100",
+            "topic_prefix": "home/chhvac"
+        }
+    }
