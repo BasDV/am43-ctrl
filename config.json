@@ -10,7 +10,7 @@
     "hassio_api": true,
     "hassio_role": "default",
     "options": {
-        "blinds_macs": ["02:dc:bc:64:8c:06","02:e5:88:9a:cb:95"],
+        "blinds_macs": "02:dc:bc:64:8c:06 02:e5:88:9a:cb:95"],
         "mqtt": {
             "broker_url": "mqtt://localhost" ,
             "topic_prefix": "home/kitchen_blinds",
@@ -19,7 +19,7 @@
         }
     },
     "schema": {
-        "blinds_macs": "array",
+        "blinds_macs": "str",
         "mqtt": {
             "broker_url": "str",
             "topic_prefix": "str",
