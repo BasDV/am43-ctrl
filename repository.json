@@ -1,5 +1,5 @@
 {
-    "name": "Gree HVAC MQTT bridge",
-    "url": "https://github.com/arthurkrupa/gree-hvac-mqtt-bridge",
-    "maintainer": "Arthur Krupa <arthurkrupa@users.noreply.github.com>"
+    "name": "AM43 Blinds drive MQTT bridge",
+    "url": "https://github.com/T-REX-XP/am43-ctrl",
+    "maintainer": "T-REX-XP <T-REX-XP@ya.ru>"
 }
