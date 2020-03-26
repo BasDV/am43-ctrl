@@ -1,4 +1,4 @@
-FROM homeassistant/amd64-base:latest
+FROM hassioaddons/base:7.0.3
 
 ENV LANG C.UTF-8
 
