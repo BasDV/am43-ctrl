@@ -16,7 +16,7 @@ if [ "$INSTANCES" -gt 0 ]; then
 		MQTT_TOPIC_PREFIX=$(jq -r ".devices[$i].mqtt_topic_prefix" $CONFIG_PATH);
 		if [[ $MQTT_TOPIC_PREFIX = null ]]; then echo "[ERROR] Missing mqtt_topic_prefix for device $i. Skipping." && continue; fi
 		echo "Running instance $i for $HVAC_HOST"
-		npx pm2 start index.js 02:e5:88:9a:cb:95 02:dc:bc:64:8c:06 --url mqtt://yourbroker
+		npx pm2 start index.js 02:e5:88:9a:cb:95 02:dc:bc:64:8c:06 --url mqtt://localhost
 	done
 	npx pm2 logs /HVAC_/
 else
