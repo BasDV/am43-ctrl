@@ -8,6 +8,9 @@ Install the blinds and configure top and bottom positions through the BlindsEngi
 Retrieve the MacAddress of the device (for example by using nRF Connect app for android)
 
 # Installation
+install bluetooth-hci-socket
+ `npm install bluetooth-hci-socket@npm:@abandonware/bluetooth-hci-socke`
+
 Run `npm install -g https://github.com/binsentsu/am43-ctrl`
 
 For making the application persistent across device reboots a possibility is to use pm2:
