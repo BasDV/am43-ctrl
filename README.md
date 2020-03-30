@@ -9,7 +9,7 @@ Retrieve the MacAddress of the device (for example by using nRF Connect app for 
 
 # Installation
 install bluetooth-hci-socket
- `npm install bluetooth-hci-socket@npm:@abandonware/bluetooth-hci-socke`
+ `npm install bluetooth-hci-socket@npm:@abandonware/bluetooth-hci-socket`
 
 Run `npm install -g https://github.com/binsentsu/am43-ctrl`
 
