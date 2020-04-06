@@ -1,7 +1,8 @@
     {
-        "hvac_host": "192.168.107.49",
+        "hvac_host": "192.168.31.234",
+        "blinds_macs": "02:AE:B3:8A:4E:70 02:E8:B4:56:69:1A",
         "mqtt": {
-            "broker_url": "mqtt://192.168.111.100",
-            "topic_prefix": "home/chhvac"
+            "broker_url": "mqtt://192.168.31.234",
+            "topic_prefix": "home/woonkamerblinds"
         }
     }
