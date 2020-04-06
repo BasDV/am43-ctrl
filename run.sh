@@ -7,5 +7,5 @@ MQTT_TOPIC_PREFIX=$(jq -r ".mqtt.topic_prefix" $CONFIG_PATH)
 MQTT_USERNAME=$(jq -r ".mqtt.username" $CONFIG_PATH)
 MQTT_PASSWORD=$(jq -r ".mqtt.password" $CONFIG_PATH)
 
-npm install -g https://github.com/T-REX-XP/am43-ctrl
-node index.js 02:e5:88:9a:cb:95 02:dc:bc:64:8c:06 --url $MQTT_BROKER_URL
+npm install -g https://github.com/BasDV/am43-ctrl
+node index.js $(jq -r ".blinds_macs" $CONFIG_PATH) --url $MQTT_BROKER_URL
